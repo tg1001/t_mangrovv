@@ -1,0 +1,41 @@
+/*=============== eco ===============*/
+.eco{
+    &__description{
+        text-align: center;
+    }
+    &__container{
+        padding: 3rem 0;
+        // grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        width: 50;
+        gap: 3rem 3rem;
+    }
+    &__card{
+        display: flex;
+        position: relative;
+
+        &:hover .eco__img{
+            transform: translateY(-.5rem);
+        }
+    }
+    &__img{
+        position: relative;
+        width: 200px;
+        height: max-content;
+        justify-self: center;
+        margin-bottom: var(--mb-0-10);
+        transition: .3s;
+    }
+    &__title,
+   
+    &__title{
+        margin-bottom: .25rem;
+    }
+    
+
+        &:hover{
+            background-color: var(--first-color-alt);
+        }
+    }
+   
+}
